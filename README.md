@@ -1,35 +1,39 @@
 # Social Media Report
 
-這個 repo 用來集中保存社群情報報告，主要收錄：
+這個 repo 用來集中保存社群情報報告（X / Threads）。
 
-- `x_top_news_*`：X（Twitter）熱門貼文報告
-- `threads_top_news_*`：Threads 熱門貼文報告
-- `web/*.html`：可直接瀏覽的網頁版報告
+## 自動維護規則
+- 每次上傳報告時更新 README
+- README 僅保留 **最近 7 天** 的報告索引
 
-## 目的
-
-提供固定格式的社群監控產出，方便：
-
-1. 每日追蹤 AI / OpenClaw / 產業熱門話題
-2. 快速回顧每輪爬蟲結果與排序邏輯
-3. 對外分享可點開瀏覽的 HTML 版本
-
-## 報告規則（目前）
-
-- 報告以繁體中文為主
-- 非中文內容翻譯為繁體中文
-- 排序規則：各分類依「愛心 + 分享 + 留言」總和由高到低
-
-## 資料夾結構
-
-```text
-reports/
-  x_top_news_*.md
-  threads_top_news_*.md
-web/
-  x_top_news_*.html
-```
-
-## 備註
-
-此 repo 為報告發布倉庫（public），用於彙整與瀏覽社群監控結果。
+## 最近一週報告
+| 時間 | 平台 | 檔名 | Markdown | HTML | 直接瀏覽 |
+|---|---|---|---|---|---|
+| 2026-02-22 18:20 | X | `x_top_news_20260222_1820` | [MD](./reports/x_top_news_20260222_1820.md) | [HTML](./web/x_top_news_20260222_1820.html) | [網頁版](https://gaskhuang.github.io/social-media-report/web/x_top_news_20260222_1820.html) |
+| 2026-02-22 18:12 | X | `x_top_news_20260222_1812_resorted_zhTW` | [MD](./reports/x_top_news_20260222_1812_resorted_zhTW.md) | [HTML](./web/x_top_news_20260222_1812_resorted_zhTW.html) | [網頁版](https://gaskhuang.github.io/social-media-report/web/x_top_news_20260222_1812_resorted_zhTW.html) |
+| 2026-02-22 18:12 | X | `x_top_news_20260222_1812_resorted` | [MD](./reports/x_top_news_20260222_1812_resorted.md) | [HTML](./web/x_top_news_20260222_1812_resorted.html) | [網頁版](https://gaskhuang.github.io/social-media-report/web/x_top_news_20260222_1812_resorted.html) |
+| 2026-02-22 17:00 | Threads | `threads_top_news_20260222_1700` | [MD](./reports/threads_top_news_20260222_1700.md) | - | - |
+| 2026-02-22 15:20 | X | `x_top_news_20260222_1520` | [MD](./reports/x_top_news_20260222_1520.md) | [HTML](./web/x_top_news_20260222_1520.html) | [網頁版](https://gaskhuang.github.io/social-media-report/web/x_top_news_20260222_1520.html) |
+| 2026-02-22 14:00 | Threads | `threads_top_news_20260222_1400` | [MD](./reports/threads_top_news_20260222_1400.md) | - | - |
+| 2026-02-22 12:20 | X | `x_top_news_20260222_1220` | [MD](./reports/x_top_news_20260222_1220.md) | [HTML](./web/x_top_news_20260222_1220.html) | [網頁版](https://gaskhuang.github.io/social-media-report/web/x_top_news_20260222_1220.html) |
+| 2026-02-22 11:52 | Threads | `threads_top_news_20260222_1152` | [MD](./reports/threads_top_news_20260222_1152.md) | - | - |
+| 2026-02-22 10:50 | Threads | `threads_top_news_20260222_1050` | [MD](./reports/threads_top_news_20260222_1050.md) | - | - |
+| 2026-02-22 10:48 | X | `x_top_news_20260222_1048` | [MD](./reports/x_top_news_20260222_1048.md) | [HTML](./web/x_top_news_20260222_1048.html) | [網頁版](https://gaskhuang.github.io/social-media-report/web/x_top_news_20260222_1048.html) |
+| 2026-02-22 10:44 | X | `x_top_news_20260222_1044` | [MD](./reports/x_top_news_20260222_1044.md) | [HTML](./web/x_top_news_20260222_1044.html) | [網頁版](https://gaskhuang.github.io/social-media-report/web/x_top_news_20260222_1044.html) |
+| 2026-02-22 09:20 | X | `x_top_news_20260222_0920` | [MD](./reports/x_top_news_20260222_0920.md) | [HTML](./web/x_top_news_20260222_0920.html) | [網頁版](https://gaskhuang.github.io/social-media-report/web/x_top_news_20260222_0920.html) |
+| 2026-02-22 08:00 | Threads | `threads_top_news_20260222_0800` | [MD](./reports/threads_top_news_20260222_0800.md) | - | - |
+| 2026-02-22 06:20 | X | `x_top_news_20260222_0620` | [MD](./reports/x_top_news_20260222_0620.md) | [HTML](./web/x_top_news_20260222_0620.html) | [網頁版](https://gaskhuang.github.io/social-media-report/web/x_top_news_20260222_0620.html) |
+| 2026-02-22 05:54 | X | `x_top_news_20260222_0554` | [MD](./reports/x_top_news_20260222_0554.md) | [HTML](./web/x_top_news_20260222_0554.html) | [網頁版](https://gaskhuang.github.io/social-media-report/web/x_top_news_20260222_0554.html) |
+| 2026-02-22 05:51 | Threads | `threads_top_news_20260222_0551` | [MD](./reports/threads_top_news_20260222_0551.md) | - | - |
+| 2026-02-22 05:46 | Threads | `threads_top_news_20260222_0546` | [MD](./reports/threads_top_news_20260222_0546.md) | - | - |
+| 2026-02-22 05:00 | Threads | `threads_top_news_20260222_0500` | [MD](./reports/threads_top_news_20260222_0500.md) | - | - |
+| 2026-02-22 04:04 | X | `x_top_news_20260222_0404` | [MD](./reports/x_top_news_20260222_0404.md) | [HTML](./web/x_top_news_20260222_0404.html) | [網頁版](https://gaskhuang.github.io/social-media-report/web/x_top_news_20260222_0404.html) |
+| 2026-02-22 04:02 | X | `x_top_news_20260222_0402` | [MD](./reports/x_top_news_20260222_0402.md) | [HTML](./web/x_top_news_20260222_0402.html) | [網頁版](https://gaskhuang.github.io/social-media-report/web/x_top_news_20260222_0402.html) |
+| 2026-02-22 03:20 | X | `x_top_news_20260222_0320` | [MD](./reports/x_top_news_20260222_0320.md) | [HTML](./web/x_top_news_20260222_0320.html) | [網頁版](https://gaskhuang.github.io/social-media-report/web/x_top_news_20260222_0320.html) |
+| 2026-02-22 00:25 | X | `x_top_news_20260222_0025` | [MD](./reports/x_top_news_20260222_0025.md) | [HTML](./web/x_top_news_20260222_0025.html) | [網頁版](https://gaskhuang.github.io/social-media-report/web/x_top_news_20260222_0025.html) |
+| 2026-02-22 00:20 | X | `x_top_news_20260222_0020` | [MD](./reports/x_top_news_20260222_0020.md) | [HTML](./web/x_top_news_20260222_0020.html) | [網頁版](https://gaskhuang.github.io/social-media-report/web/x_top_news_20260222_0020.html) |
+| 2026-02-21 23:03 | Threads | `threads_top_news_20260221_2303` | [MD](./reports/threads_top_news_20260221_2303.md) | - | - |
+| 2026-02-21 21:20 | X | `x_top_news_20260221_2120` | [MD](./reports/x_top_news_20260221_2120.md) | [HTML](./web/x_top_news_20260221_2120.html) | [網頁版](https://gaskhuang.github.io/social-media-report/web/x_top_news_20260221_2120.html) |
+| 2026-02-21 18:20 | X | `x_top_news_20260221_1820` | [MD](./reports/x_top_news_20260221_1820.md) | [HTML](./web/x_top_news_20260221_1820.html) | [網頁版](https://gaskhuang.github.io/social-media-report/web/x_top_news_20260221_1820.html) |
+| 2026-02-21 17:26 | X | `x_top_news_20260221_1726` | [MD](./reports/x_top_news_20260221_1726.md) | [HTML](./web/x_top_news_20260221_1726.html) | [網頁版](https://gaskhuang.github.io/social-media-report/web/x_top_news_20260221_1726.html) |
+| 2026-02-21 14:00 | Threads | `threads_top_news_20260221_1400` | [MD](./reports/threads_top_news_20260221_1400.md) | - | - |
