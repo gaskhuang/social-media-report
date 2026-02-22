@@ -4,7 +4,7 @@
 
 - `x_top_news_*`：X（Twitter）熱門貼文報告
 - `threads_top_news_*`：Threads 熱門貼文報告
-- `reports/web/*.html`：可直接瀏覽的網頁版報告
+- `web/*.html`：可直接瀏覽的網頁版報告
 
 ## 目的
 
@@ -26,8 +26,8 @@
 reports/
   x_top_news_*.md
   threads_top_news_*.md
-  web/
-    x_top_news_*.html
+web/
+  x_top_news_*.html
 ```
 
 ## 備註
