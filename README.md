@@ -9,7 +9,6 @@
 ## X 報告（最近一週）
 | 時間 | 檔名 | Markdown | HTML | 直接瀏覽 |
 |---|---|---|---|---|
-| 2026-02-22 18:20 | `x_top_news_20260222_1820` | [MD](./reports/x_top_news_20260222_1820.md) | [HTML](./web/x_top_news_20260222_1820.html) | [網頁版](https://gaskhuang.github.io/social-media-report/web/x_top_news_20260222_1820.html) |
 | 2026-02-22 18:12 | `x_top_news_20260222_1812_resorted` | [MD](./reports/x_top_news_20260222_1812_resorted.md) | [HTML](./web/x_top_news_20260222_1812_resorted.html) | [網頁版](https://gaskhuang.github.io/social-media-report/web/x_top_news_20260222_1812_resorted.html) |
 | 2026-02-22 18:12 | `x_top_news_20260222_1812_resorted_zhTW` | [MD](./reports/x_top_news_20260222_1812_resorted_zhTW.md) | [HTML](./web/x_top_news_20260222_1812_resorted_zhTW.html) | [網頁版](https://gaskhuang.github.io/social-media-report/web/x_top_news_20260222_1812_resorted_zhTW.html) |
 | 2026-02-22 15:20 | `x_top_news_20260222_1520` | [MD](./reports/x_top_news_20260222_1520.md) | [HTML](./web/x_top_news_20260222_1520.html) | [網頁版](https://gaskhuang.github.io/social-media-report/web/x_top_news_20260222_1520.html) |
