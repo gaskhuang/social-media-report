@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang='zh-Hant'>
+<head>
+<meta charset='utf-8' />
+<meta name='viewport' content='width=device-width, initial-scale=1' />
+<title>X Top 新文記者版</title>
+<style>
+:root{--bg:#0b1020;--panel:#121a2b;--text:#e5e7eb;--muted:#94a3b8;--acc:#60a5fa;--acc2:#22d3ee;--line:#1f2937}
+*{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--text);font:15px/1.6 -apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans TC',sans-serif}
+.wrap{max-width:1100px;margin:0 auto;padding:28px 20px 70px}
+h1{font-size:28px;margin:0 0 6px} .sub{color:var(--muted)}
+.cat{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:14px 16px;margin:16px 0}
+.cat h2{margin:0 0 10px;color:#bfdbfe;font-size:18px}
+.line{padding:6px 0;border-top:1px dashed #22304a} .line:first-of-type{border-top:none}
+.ln{display:inline-block;width:42px;color:#7dd3fc;text-decoration:none} .ln:hover{text-decoration:underline}
+.txt{cursor:pointer} .tid{color:var(--acc2);text-decoration:none;margin-left:6px} .tid:hover{text-decoration:underline}
+.meta{color:var(--muted);font-size:12px;margin-left:8px}
+.insight{background:#0f172a;border:1px solid #1e293b;padding:12px 14px;border-radius:12px}
+.blocked{background:#3f1d1d;border:1px solid #7f1d1d;padding:10px 12px;border-radius:10px;margin:12px 0;color:#fecaca}
+.empty{color:var(--muted)}
+.toast{position:fixed;right:16px;bottom:16px;background:#111827;color:#e5e7eb;padding:8px 10px;border-radius:10px;font-size:13px;opacity:0;transition:.2s}
+.toast.show{opacity:1}
+</style>
+</head>
+<body><div class='wrap'>
+<h1>X Top 新文記者版（滾動 80 次 / 六大類）</h1>
+<div class='sub'>最後更新：2026-02-22 09:20 (Asia/Taipei)</div>
+<div class='blocked'>⚠️ 抓取受阻：抓取受阻：BrowserType.connect_over_cdp: Unexpected status 401 when connecting to http://127.0.0.1:18792/json/version/.</div>
+<section class='cat'><h2>焦點補位 1</h2><p class='empty'>本輪無新增貼文</p></section><section class='cat'><h2>焦點補位 2</h2><p class='empty'>本輪無新增貼文</p></section><section class='cat'><h2>焦點補位 3</h2><p class='empty'>本輪無新增貼文</p></section><section class='cat'><h2>焦點補位 4</h2><p class='empty'>本輪無新增貼文</p></section><section class='cat'><h2>焦點補位 5</h2><p class='empty'>本輪無新增貼文</p></section><section class='cat'><h2>焦點補位 6</h2><p class='empty'>本輪無新增貼文</p></section>
+<section class='insight'><h2>三行洞察</h2><ol><li>本輪受登入/風控限制，未能完整讀取貼文內容。</li><li>已仍照網站版型產出，便於後續補抓與版本追蹤。</li><li>建議先恢復 X 連線狀態後重跑同流程。</li></ol></section>
+</div><div class='toast' id='toast'>已複製</div>
+<script>
+const toast = document.getElementById('toast');
+function showToast(msg){toast.textContent=msg;toast.classList.add('show');setTimeout(()=>toast.classList.remove('show'),1200);}
+async function copyText(t){try{await navigator.clipboard.writeText(t);showToast('已複製');}catch(e){showToast('複製失敗');}}
+for (const line of document.querySelectorAll('.line')) {
+  const ln = line.querySelector('.ln');
+  const txt = line.querySelector('.txt');
+  ln.addEventListener('click', async (e) => {
+    e.preventDefault();
+    const id = line.id;
+    history.replaceState(null,'','#'+id);
+    await copyText(location.origin + location.pathname + '#'+id);
+  });
+  txt.addEventListener('click', async () => {
+    await copyText(line.dataset.copy);
+  });
+}
+</script></body></html>
