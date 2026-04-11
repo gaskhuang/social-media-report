@@ -2,6 +2,12 @@
 
 這個 repo 用來集中保存社群情報報告（X / Threads / Reddit）。
 
+## 入口說明
+- 每小時快報 = hourly
+- 每日總結 = daily
+- GitHub Pages 入口：`https://gaskhuang.github.io/social-media-report/`
+- 報告頁面入口：`https://gaskhuang.github.io/social-media-report/web/`
+
 ## 自動維護規則
 - 每次上傳報告時更新 README
 - README 僅保留 **最近 7 天** 的報告索引
